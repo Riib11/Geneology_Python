@@ -3,7 +3,7 @@
 INHERITED_TRAIT_TYPES = ["color"]
 
 # number of possible values for trait
-INHERITED_TRAIT_VALUE_RANGES = [1]
+INHERITED_TRAIT_VALUE_RANGES = [2]
 
 AQUIRED_TRAIT_TYPES = ["generation","children","parents"]
 

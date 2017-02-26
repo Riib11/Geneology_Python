@@ -5,7 +5,7 @@ NAME = "Test_Geneology"
 
 GENERATIONS = 15
 
-CHILDREN_PER_GENERATION = 5
+CHILDREN_PER_GENERATION = 10
 
 PARENTS_PER_PROCREATION = 2
 
@@ -15,14 +15,14 @@ INHERITED_TRAIT_WEIGHTS = {
 }
 AQUIRED_TRAIT_WEIGHTS = {
     "generation": 1,
-    "children": 100
+    "children": 8
 }
 
 # strength of inherited trait values over other possible values
 INHERITED_TRAIT_ADVANTAGES = {
     "color": {
         1: 1,
-        # 2: 1
+        2: 1
     }
 }
 
