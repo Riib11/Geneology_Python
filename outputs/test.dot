@@ -1,0 +1,13 @@
+graph Test_Geneology{
+   label=<<FONT POINT-SIZE='50'>'Test_Geneology'</FONT>>;
+   labelloc=tp;
+   graph [splines=splines];
+   graph [nodesep=0.1];
+   graph [ranksep=1];
+   node [style=filled];
+   node [fontcolor=white];
+   node [fixedsize=true];
+   subgraph generations_labels {
+       node[color=grey style=filled fontsize=12 shape=cds fontcolor=black fixedsize=false];edge[style=invis]
+      Gen0 -- Gen1 -- Gen2 -- Gen3 -- Gen4 -- Gen5 -- Gen6 -- Gen7 -- Gen8 -- Gen9;
+   }
