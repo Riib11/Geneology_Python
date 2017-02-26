@@ -15,7 +15,7 @@ INHERITED_TRAIT_WEIGHTS = {
 }
 AQUIRED_TRAIT_WEIGHTS = {
     "generation": 1,
-    "children": 50
+    "children": 100
 }
 
 # strength of inherited trait values over other possible values
