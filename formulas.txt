@@ -1,0 +1,5 @@
+Formula for weight of parent:
+a + citations^b * (aging coefficient)
+
+Age bonus:
+age^-c

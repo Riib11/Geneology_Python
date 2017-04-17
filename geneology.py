@@ -2,7 +2,7 @@ import generation
 import member
 import selection_manager
 import procreation_manager
-
+from tqdm import tqdm
 
 class Geneology:
     def __init__(self,parameters):
@@ -16,7 +16,7 @@ class Geneology:
 
     def create_geneology(self):
         # create GENERATIONS generations
-        for i in range(self.parameters.GENERATIONS):
+        for i in tqdm(range(self.parameters.GENERATIONS)):
             # create an empty generation
             gen = generation.Generation(i)
             if i == 0:
